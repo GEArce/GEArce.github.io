@@ -2,6 +2,16 @@ section {
   padding: 60px 0;  /* Ajusta según sea necesario */
 }
 
+#image-container-section h2 {
+  font-size: 36px;
+  color: #C1272D; /* Rojo vibrante, cambiá si querés otro color */
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1.5px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
 
 /* Estilos generales */
 body {
@@ -85,6 +95,29 @@ body {
   margin: 20px 0;
 }
 
+#about-me {
+  margin: 10px 0;
+  padding: 15px;
+  width: 90%;
+  max-width: 800px;
+  background-color: #fdfdfd;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+#about-me h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+#about-me p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+
 h2 {
   font-weight: bold;
   text-align: center;
@@ -155,9 +188,10 @@ p {
   border: 2px solid white;
   width: 100%;
   max-width: 1000px;
-  height: 455px;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.5s;
+
 }
 
 .portfolio-image:hover {
